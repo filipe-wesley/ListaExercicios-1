@@ -1,8 +1,7 @@
-num1 = float(input("numero 1: "))
-num2 = float(input("numero 2: "))
+num = float(input("digite um numero: "))
 
-if num1 > num2:
-    print("o valor de ",num1, "é maior que ",num2,)
+if num >=0:
+    print("o valor de ",num, "é positivo")
     
-if num2 > num1:
-    print("o valor de ",num2, "é maior que ",num1,)
+if num <0:
+    print("o valor de ",num, "é negativo")
